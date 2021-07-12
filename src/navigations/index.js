@@ -6,7 +6,7 @@ import HomeNavigate from './HomeNavigate';
 import Draweravigate from './DrawerNavigation';
 
 const MainContainer = () => {
-  const isLoggedIn = true;
+  const isLoggedIn = false;
   return (
     <NavigationContainer>
       {isLoggedIn ? <Draweravigate /> : <AuthNavigate/>}
